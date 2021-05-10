@@ -5,12 +5,13 @@ import os
 import smtplib
 from time import time,ctime
 
-email_user = 'hithere.abcxyz@gmail.com'
-email_password = 'phoenixisdard'
+email_user = 'your email ID'
+email_password = 'your email password'
 
 sent_from = email_user
-to = ['sakshi@getnada.com']
+to = ['email ID to be notified]
 
+#frequency of checks
 minutes = 1
 
 today = date.today()
